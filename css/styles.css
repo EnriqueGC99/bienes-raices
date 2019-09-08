@@ -11,11 +11,7 @@ body {
     line-height: 2;
 }
 
-
-
-
 /*globales*/
-
 img {
     max-width: 100%;
 }
@@ -23,19 +19,19 @@ img {
 .contenedor{
     width: 95%;
     max-width: 130rem;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
- 
-h1{ 
+
+h1{
     font-size: 3.8rem;
 }
-h2{ 
+h2{
     font-size: 3.4rem;
 }
-h3{ 
+h3{
     font-size: 3.3rem;
 }
-h4{ 
+h4{
     font-size: 2.6rem;
 }
 
@@ -71,7 +67,7 @@ h4{
     font-size:  1.8rem;
     padding: 1rem 3rem;
     margin-top: 3rem;
-    display: inline-block; 
+    display: inline-block;
     text-align: center;
     border: none;
 }
@@ -80,14 +76,14 @@ h4{
     cursor: pointer;
 }
 
- .boton-amarillo{
-background-color: #E08709;
- }
+.boton-amarillo{
+ background-color: #E08709;
+}
 
- .boton-verde{
-     background-color: #71b100;
+.boton-verde{
+   background-color: #71b100;
 
- }
+}
 
 /* hader */
 
@@ -98,22 +94,22 @@ background-color: #E08709;
 
 .site-header.inicio{
     background-image: url(../img/header.jpg);
-    background-position: center center; 
+    background-position: center center;
     background-size: cover;
     height: 100vh;
     min-height: 60rem;
 }
 
-.contenido-header{      
+.contenido-header{
     height: 100%;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .contenido-header h1 {
     color: #ffffff;
-    padding-bottom: 2rem;   
+    padding-bottom: 2rem;
     max-width: 60rem;
     line-height: 2;
 }
@@ -143,7 +139,7 @@ background-color: #E08709;
 
 /** iconos nosotros**/
 
-.iconos-nosotros{   
+.iconos-nosotros{
     display: flex;
     justify-content: space-between;
 }
@@ -182,7 +178,7 @@ background-color: #E08709;
 }
 
 .precio{
-    color: #71b100; 
+    color: #71b100;
     font-weight: 700;
 }
 
@@ -196,7 +192,7 @@ background-color: #E08709;
 }
 
 .iconos-caracteristicas li{
-    
+
     display: flex;
 }
 .iconos-caracteristicas li img {
@@ -273,7 +269,7 @@ background-color: #E08709;
 
 .texto-entrada h4::after{
     content: '';
-    display: block; 
+    display: block;
     width: 15rem;
     height: .5rem;
     background-color: #71b100;
@@ -288,7 +284,7 @@ background-color: #E08709;
 .testimonial {
     background-color: #71b100;
     font-size: 2.4rem;
-    padding: 2rem;  
+    padding: 2rem;
     color: #ffffff;
     border-radius: 2rem;
 }
